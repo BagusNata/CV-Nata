@@ -3,6 +3,7 @@
   margin: 2rem 2rem;
   background-color: #fcfcfc;
 }
+
 .template-cv-box {
   display: flex;
 }
@@ -12,6 +13,7 @@
 .box-section {
   display: grid;
 }
+
 .section-title {
   font-weight: 600;
   font-size: 1.25rem;
@@ -21,6 +23,7 @@
   margin-bottom: 1.5rem;
   font-family: "Poppins", sans-serif;
 }
+
 .information-text {
   margin-bottom: 10px;
   display: flex;
@@ -34,11 +37,13 @@
   border-radius: 12px 0px 0px 12px;
   box-shadow: 0px 2px 15px -4px #000000;
 }
+
 /* PERSONAL */
 .personal-img {
   width: 11rem;
   height: 11rem;
 }
+
 .center {
   margin: auto;
   display: grid;
@@ -46,6 +51,7 @@
   margin-bottom: 0.5rem;
   justify-content: center;
 }
+
 .personal-title {
   display: grid;
   font-size: 34px;
@@ -53,12 +59,14 @@
   justify-content: center;
   font-family: Georgia, serif;
 }
+
 .personal-profession {
   display: grid;
   font-size: 17px;
   font-weight: 500;
   justify-content: center;
 }
+
 /* PERSONAL INFOMATION */
 .personal-information {
   display: grid;
@@ -67,6 +75,7 @@
   margin-top: 3.5rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .personal-logo {
   width: 1rem;
   height: 1rem;
@@ -82,11 +91,13 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+
 .social-logo {
   width: 1rem;
   height: 1rem;
   margin-right: 10px;
 }
+
 .linkin-logo {
   width: inherit !important;
 }
@@ -99,13 +110,70 @@
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .nama-nim {
   margin: 0.5rem 1.5rem;
   font-weight: 600;
 }
 /* ============================================================================================== */
-/* EDUCATION */
+/* EDUCATION AND EXPERIENCE */
+.education-box {
+  display: grid;
+  gap: 1.5rem;
+}
 
+.education-content,
+.experience-content {
+  display: flex;
+}
+
+.education-time,
+.experience-time {
+  padding-right: 1rem;
+}
+
+.education-rounder,
+.experience-rounder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #707070;
+  border-radius: 50%;
+  margin-top: 0.25rem;
+}
+
+.education-line,
+.experience-line {
+  display: block;
+  width: 2px;
+  height: 130%;
+  background-color: #707070;
+  transform: translate(7px, 0);
+}
+
+.education-data,
+.experience-data {
+  gap: 0;
+}
+
+.education-title,
+.experience-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  color: #0b0a0a;
+  font-family: "Poppins", sans-serif;
+}
+
+.experience-company {
+  font-size: 0.875rem;
+  color: #0b0a0a;
+}
+
+.education-year {
+  font-size: 0.813rem;
+}
 /* ============================================================================================== */
 /* SKILLS */
 
