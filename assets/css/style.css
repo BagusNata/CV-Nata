@@ -40,8 +40,8 @@
 
 /* PERSONAL */
 .personal-img {
-  width: 11rem;
-  height: 11rem;
+  width: 13rem;
+  height: 13rem;
 }
 
 .center {
@@ -176,6 +176,19 @@
 }
 /* ============================================================================================== */
 /* SKILLS */
+.skill-box {
+  display: flex;
+}
+.skill-list {
+  padding: 0 0;
+  margin-bottom: 1rem;
+}
+.skill-pad {
+  padding-left: 1.5rem;
+}
+.list-margin {
+  margin-bottom: 0.5rem;
+}
 
 /* ============================================================================================== */
 /* RIGHT BOX CSS */
