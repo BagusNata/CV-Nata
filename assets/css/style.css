@@ -16,17 +16,17 @@
 
 .section-title {
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   margin-top: 0.5rem;
   letter-spacing: 5px;
   margin-left: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
   font-family: "Poppins", sans-serif;
 }
 
 .information-text {
-  margin-bottom: 10px;
   display: flex;
+  margin-bottom: 10px;
 }
 
 /* ============================================================================================== */
@@ -66,19 +66,23 @@
   font-weight: 500;
   justify-content: center;
 }
-
+.personal-text {
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* PERSONAL INFOMATION */
 .personal-information {
   display: grid;
-  font-size: 15px;
+  font-size: 12px;
   margin-left: 1rem;
   margin-top: 3.5rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .personal-logo {
-  width: 1rem;
-  height: 1rem;
+  width: 1.1rem;
+  height: 1.1rem;
   margin-right: 10px;
 }
 
@@ -89,12 +93,12 @@
   display: flex;
   margin-left: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .social-logo {
-  width: 1rem;
-  height: 1rem;
+  width: 1.1rem;
+  height: 1.1rem;
   margin-right: 10px;
 }
 
@@ -105,7 +109,7 @@
 /* PROFILE */
 .profile-description {
   margin: 0 0;
-  font-size: 15px;
+  font-size: 16px;
   padding: 0 0.5rem;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
@@ -116,24 +120,21 @@
   font-weight: 600;
 }
 /* ============================================================================================== */
-/* EDUCATION AND EXPERIENCE */
-.education-box {
+/* EDUCATION AND PROJECT */
+.education-box,
+.project-box {
   display: grid;
   gap: 1.5rem;
+  margin-left: 0.5rem;
 }
 
 .education-content,
-.experience-content {
+.project-content {
   display: flex;
 }
 
-.education-time,
-.experience-time {
-  padding-right: 1rem;
-}
-
 .education-rounder,
-.experience-rounder {
+.project-rounder {
   position: relative;
   display: block;
   width: 16px;
@@ -143,22 +144,25 @@
   margin-top: 0.25rem;
 }
 
-.education-line,
-.experience-line {
+.education-line {
   display: block;
-  width: 2px;
+  width: 2.5px;
   height: 130%;
   background-color: #707070;
-  transform: translate(7px, 0);
+  transform: translate(6.5px, 0);
+}
+
+.education-time {
+  padding-right: 0.5rem;
 }
 
 .education-data,
-.experience-data {
+.project-data {
   gap: 0;
 }
 
 .education-title,
-.experience-title {
+.project-title {
   font-size: 1rem;
   font-weight: 500;
   margin: 0;
@@ -166,24 +170,24 @@
   font-family: "Poppins", sans-serif;
 }
 
-.experience-company {
-  font-size: 0.875rem;
-  color: #0b0a0a;
-}
-
 .education-year {
-  font-size: 0.813rem;
+  font-size: 13.5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* ============================================================================================== */
 /* SKILLS */
 .skill-box {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .skill-list {
   padding: 0 0;
   margin-bottom: 1rem;
 }
-.skill-pad {
+.skill-pad-left {
+  padding-left: 2rem;
+}
+.skill-pad-right {
   padding-left: 1.5rem;
 }
 .list-margin {
@@ -197,4 +201,34 @@
   border: 5px;
   border-radius: 0px 12px 12px 0px;
   box-shadow: 0px 2px 15px -4px #000000;
+}
+
+/* ============================================================================================== */
+/* Project */
+
+.project-section {
+  display: grid;
+  margin-top: 1.5rem;
+}
+
+.project-time {
+  padding-right: 1rem;
+}
+
+.project-line {
+  display: block;
+  width: 3px;
+  height: 110%;
+  background-color: #707070;
+  transform: translate(6px, 0);
+}
+
+.project-date {
+  font-size: 14px;
+  color: #0b0a0a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-description {
+  font-family: Arial, Helvetica, sans-serif;
 }
